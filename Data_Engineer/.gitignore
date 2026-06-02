@@ -1,0 +1,8 @@
+data/raw/
+data/processed/
+data/archived_rejected/
+reports/contact_sheets/
+reports/review_batches/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
