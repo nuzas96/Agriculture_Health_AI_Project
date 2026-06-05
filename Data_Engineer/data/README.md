@@ -8,11 +8,11 @@ Google Drive link: https://drive.google.com/drive/folders/1vekKwpUeoxEUURKpIukM6
 
 - Domain: Agriculture Health
 - Task: Plant leaf disease image classification
-- Total images: 5,815
+- Total images: 5,750
 - Classes: 5
-- Images per class: 1,163
-- Training images: 815 per class, 4,075 total
-- Validation images: 174 per class, 870 total
+- Images per class: 1,150
+- Training images: 812 per class, 4,060 total
+- Validation images: 164 per class, 820 total
 - Testing images: 174 per class, 870 total
 - Image format: RGB JPG
 - Image size: 224 x 224 pixels

@@ -28,7 +28,7 @@ The final dataset uses 5 classes:
 
 ## Final Clean Dataset
 
-The original target was up to 10,000 images. After manual filtering, exact duplicate removal, visual review, and class balancing, the final cleaned dataset contains 5,815 images. This is valid because it is above the 3,000 minimum and stays below the 10,000 maximum.
+The original target was up to 10,000 images. After manual filtering, exact duplicate removal, visual review, and class balancing, the final cleaned dataset contains 5,750 images. This is valid because it is above the 3,000 minimum and stays below the 10,000 maximum.
 
 All final images are RGB JPG images resized to 224 x 224 pixels.
 
@@ -38,18 +38,18 @@ https://drive.google.com/drive/folders/1vekKwpUeoxEUURKpIukM656538snPFR8?usp=sha
 
 | Class               |     Train | Validation |      Test |     Total |
 | ------------------- | --------: | ---------: | --------: | --------: |
-| yellow_leaf_disease |       815 |        174 |       174 |     1,163 |
-| leaf_rust           |       815 |        174 |       174 |     1,163 |
-| powdery_mildew      |       815 |        174 |       174 |     1,163 |
-| leaf_spot           |       815 |        174 |       174 |     1,163 |
-| leaf_blight         |       815 |        174 |       174 |     1,163 |
-| **Total**           | **4,075** |    **870** |   **870** | **5,815** |
+| yellow_leaf_disease |       812 |        164 |       174 |     1,150 |
+| leaf_rust           |       812 |        164 |       174 |     1,150 |
+| powdery_mildew      |       812 |        164 |       174 |     1,150 |
+| leaf_spot           |       812 |        164 |       174 |     1,150 |
+| leaf_blight         |       812 |        164 |       174 |     1,150 |
+| **Total**           | **4,060** |    **820** |   **870** | **5,750** |
 
 Final technical check:
 
 - The final dataset folders were checked after manual filtering.
 - Exact duplicate images were removed.
-- All classes were balanced to 1,163 images each.
+- All classes were balanced to 1,150 images each.
 - Remaining images are organized into train, validation, and test folders.
 - Image relevance was checked manually, so a small number of imperfect images may still exist.
 
