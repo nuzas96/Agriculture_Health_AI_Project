@@ -28,24 +28,28 @@ The final dataset uses 5 classes:
 
 ## Final Clean Dataset
 
-The original target was up to 10,000 images. After manual filtering, exact duplicate removal, visual review, and class balancing, the final cleaned dataset contains 6,000 images. This is valid because it is above the 3,000 minimum and stays below the 10,000 maximum.
+The original target was up to 10,000 images. After manual filtering, exact duplicate removal, visual review, and class balancing, the final cleaned dataset contains 5,815 images. This is valid because it is above the 3,000 minimum and stays below the 10,000 maximum.
 
 All final images are RGB JPG images resized to 224 x 224 pixels.
 
+The image dataset is stored in Google Drive because it is too large for GitHub:
+
+https://drive.google.com/drive/folders/1vekKwpUeoxEUURKpIukM656538snPFR8?usp=sharing
+
 | Class               |     Train | Validation |      Test |     Total |
 | ------------------- | --------: | ---------: | --------: | --------: |
-| yellow_leaf_disease |       840 |        180 |       180 |     1,200 |
-| leaf_rust           |       840 |        180 |       180 |     1,200 |
-| powdery_mildew      |       840 |        180 |       180 |     1,200 |
-| leaf_spot           |       840 |        180 |       180 |     1,200 |
-| leaf_blight         |       840 |        180 |       180 |     1,200 |
-| **Total**           | **4,200** |    **900** |   **900** | **6,000** |
+| yellow_leaf_disease |       815 |        174 |       174 |     1,163 |
+| leaf_rust           |       815 |        174 |       174 |     1,163 |
+| powdery_mildew      |       815 |        174 |       174 |     1,163 |
+| leaf_spot           |       815 |        174 |       174 |     1,163 |
+| leaf_blight         |       815 |        174 |       174 |     1,163 |
+| **Total**           | **4,075** |    **870** |   **870** | **5,815** |
 
 Final technical check:
 
 - The final dataset folders were checked after manual filtering.
 - Exact duplicate images were removed.
-- All classes were balanced to 1,200 images each.
+- All classes were balanced to 1,163 images each.
 - Remaining images are organized into train, validation, and test folders.
 - Image relevance was checked manually, so a small number of imperfect images may still exist.
 
@@ -76,8 +80,5 @@ Agriculture_Health_AI_Project/
   reports/
     data_engineering_final_report.csv
   data/
-    final/
-      train/
-      val/
-      test/
+    README.md
 ```
