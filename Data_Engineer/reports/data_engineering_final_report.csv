@@ -1,7 +1,7 @@
 class,raw_count,processed_count,train,validation,test,total
-yellow_leaf_disease,1247,1247,420,90,90,600
-leaf_rust,1259,1259,420,90,90,600
-powdery_mildew,1252,1252,420,90,90,600
-leaf_spot,1135,1135,420,90,90,600
-leaf_blight,1093,1093,420,90,90,600
-TOTAL,5986,5986,2100,450,450,3000
+yellow_leaf_disease,1600,1600,840,180,180,1200
+leaf_rust,1534,1534,840,180,180,1200
+powdery_mildew,1600,1600,840,180,180,1200
+leaf_spot,1599,1599,840,180,180,1200
+leaf_blight,1200,1200,840,180,180,1200
+TOTAL,7533,7533,4200,900,900,6000
