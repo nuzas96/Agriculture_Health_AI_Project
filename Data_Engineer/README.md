@@ -28,24 +28,24 @@ The final dataset uses 5 classes:
 
 ## Final Clean Dataset
 
-The original target was up to 10,000 images. After manual filtering, exact duplicate removal, and class balancing, the final cleaned dataset contains 5,000 images. This is still valid because it is above the 3,000 minimum and below the 10,000 maximum.
+The original target was up to 10,000 images. After manual filtering, exact duplicate removal, visual review, and class balancing, the final cleaned dataset contains 3,000 images. This is valid because it meets the 3,000 minimum and stays below the 10,000 maximum.
 
 All final images are RGB JPG images resized to 224 x 224 pixels.
 
 | Class               |     Train | Validation |      Test |     Total |
 | ------------------- | --------: | ---------: | --------: | --------: |
-| yellow_leaf_disease |       700 |        150 |       150 |     1,000 |
-| leaf_rust           |       700 |        150 |       150 |     1,000 |
-| powdery_mildew      |       700 |        150 |       150 |     1,000 |
-| leaf_spot           |       700 |        150 |       150 |     1,000 |
-| leaf_blight         |       700 |        150 |       150 |     1,000 |
-| **Total**           | **3,500** |    **750** |   **750** | **5,000** |
+| yellow_leaf_disease |       420 |         90 |        90 |       600 |
+| leaf_rust           |       420 |         90 |        90 |       600 |
+| powdery_mildew      |       420 |         90 |        90 |       600 |
+| leaf_spot           |       420 |         90 |        90 |       600 |
+| leaf_blight         |       420 |         90 |        90 |       600 |
+| **Total**           | **2,100** |    **450** |   **450** | **3,000** |
 
 Final technical check:
 
 - The final dataset folders were checked after manual filtering.
 - Exact duplicate images were removed.
-- All classes were balanced to 1,000 images each.
+- All classes were balanced to 600 images each.
 - Remaining images are organized into train, validation, and test folders.
 - Image relevance was checked manually, so a small number of imperfect images may still exist.
 
