@@ -28,22 +28,24 @@ The final dataset uses 5 classes:
 
 ## Final Clean Dataset
 
-The original target was up to 10,000 images. After manual filtering and deletion of obvious invalid images, the final cleaned dataset contains 9,459 images. This is still valid because it is above the 3,000 minimum and below the 10,000 maximum.
+The original target was up to 10,000 images. After manual filtering, exact duplicate removal, and class balancing, the final cleaned dataset contains 5,000 images. This is still valid because it is above the 3,000 minimum and below the 10,000 maximum.
 
 All final images are RGB JPG images resized to 224 x 224 pixels.
 
 | Class               |     Train | Validation |      Test |     Total |
 | ------------------- | --------: | ---------: | --------: | --------: |
-| yellow_leaf_disease |     1,286 |        271 |       269 |     1,826 |
-| leaf_rust           |     1,361 |        287 |       286 |     1,934 |
-| powdery_mildew      |     1,322 |        278 |       292 |     1,892 |
-| leaf_spot           |     1,318 |        281 |       280 |     1,879 |
-| leaf_blight         |     1,354 |        285 |       289 |     1,928 |
-| **Total**           | **6,641** |  **1,402** | **1,416** | **9,459** |
+| yellow_leaf_disease |       700 |        150 |       150 |     1,000 |
+| leaf_rust           |       700 |        150 |       150 |     1,000 |
+| powdery_mildew      |       700 |        150 |       150 |     1,000 |
+| leaf_spot           |       700 |        150 |       150 |     1,000 |
+| leaf_blight         |       700 |        150 |       150 |     1,000 |
+| **Total**           | **3,500** |    **750** |   **750** | **5,000** |
 
 Final technical check:
 
 - The final dataset folders were checked after manual filtering.
+- Exact duplicate images were removed.
+- All classes were balanced to 1,000 images each.
 - Remaining images are organized into train, validation, and test folders.
 - Image relevance was checked manually, so a small number of imperfect images may still exist.
 
