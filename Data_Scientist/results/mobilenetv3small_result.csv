@@ -1,0 +1,2 @@
+Model,Test Accuracy,Test Accuracy (%),Test Loss,mAP,mAP (%),Training Time (seconds),Training Time (minutes),Total Parameters
+MobileNetV3Small,0.6264367699623108,62.64367699623108,0.9785352945327759,0.689870267526125,68.98702675261251,492.15012526512146,8.202502087752025,942005

@@ -1,0 +1,4 @@
+Model,Test Accuracy,Test Accuracy (%),Test Loss,mAP,mAP (%),Training Time (seconds),Training Time (minutes),Total Parameters
+ResNet50,0.7115,71.15,0.8988,0.7856,78.56,5880.3,98.01,23597957
+DenseNet121,0.6356,63.56,0.9478,0.7058,70.58,5988.47,99.81,7042629
+MobileNetV3Small,0.6264,62.64,0.9785,0.6899,68.99,492.15,8.2,942005
