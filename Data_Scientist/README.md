@@ -1,3 +1,7 @@
+## Notebook Files
+- `Data_Scientist_Final_Clean.ipynb` is the final clean notebook for submission.
+- `Data_Scientist_Model_Training.ipynb` is the original working notebook used during model development and testing.
+
 # Data Scientist - Model Training
 
 This folder contains the Data Scientist part for the Agriculture Health AI Project.
@@ -5,9 +9,6 @@ This folder contains the Data Scientist part for the Agriculture Health AI Proje
 ## Role
 The Data Scientist role focuses on data modelling using CNN transfer learning.
 
-## Notebook Files
-- `Data_Scientist_Final_Clean.ipynb` is the final clean notebook for submission.
-- `Data_Scientist_Model_Training.ipynb` is the original working notebook used during model development and testing.
 
 ## Models Used
 - MobileNetV3Small
