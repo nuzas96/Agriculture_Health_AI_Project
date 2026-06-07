@@ -1,0 +1,4 @@
+Model,Trial,Learning Rate,Dropout,Trainable Layers,Epochs,Best Validation Accuracy (%),Final Validation Accuracy (%),Training Time (minutes)
+DenseNet121,Trial 1,0.001,0.3,Frozen base,3,58.41,58.41,6.2
+MobileNetV3Small,Trial 1,0.001,0.3,Frozen base,3,60.24,60.24,0.54
+ResNet50,Trial 1,0.001,0.3,Frozen base,3,63.41,63.41,5.84
