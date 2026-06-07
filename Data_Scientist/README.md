@@ -2,6 +2,7 @@
 - `Data_Scientist_Final_Clean.ipynb` is the final clean notebook for submission.
 - `Data_Scientist_Model_Training.ipynb` is the original working notebook used during model development and testing.
 
+
 # Data Scientist - Model Training
 
 This folder contains the Data Scientist part for the Agriculture Health AI Project.
