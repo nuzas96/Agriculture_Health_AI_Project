@@ -57,4 +57,4 @@ Saved models included:
 - densenet121_model.keras
 
 Google Drive link:
-[Saved Models ZIP]([paste-your-google-drive-link-here](https://drive.google.com/file/d/1UV-klIND0hV5SWNfJySwhYp-njy__SHS/view?usp=sharing))
+[Saved Models ZIP](https://drive.google.com/file/d/1UV-klIND0hV5SWNfJySwhYp-njy__SHS/view?usp=sharing)
