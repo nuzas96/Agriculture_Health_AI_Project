@@ -5,6 +5,10 @@ This folder contains the Data Scientist part for the Agriculture Health AI Proje
 ## Role
 The Data Scientist role focuses on data modelling using CNN transfer learning.
 
+## Notebook Files
+- `Data_Scientist_Final_Clean.ipynb` is the final clean notebook for submission.
+- `Data_Scientist_Model_Training.ipynb` is the original working notebook used during model development and testing.
+
 ## Models Used
 - MobileNetV3Small
 - ResNet50
@@ -16,6 +20,19 @@ The Data Scientist role focuses on data modelling using CNN transfer learning.
 - Image size: 224 x 224
 - Epochs: 50 for each model
 - Evaluation metrics: Test Accuracy, mAP, Training Time, and Total Parameters
+
+## Hyperparameter Tuning
+
+A hyperparameter tuning experiment was conducted using three trials for each CNN model. The trials compared different learning rates, dropout values, and trainable layer settings.
+
+Trial 1 was selected for final training:
+- Learning rate: 0.001
+- Dropout: 0.3
+- Trainable layers: Frozen base
+
+The tuning results are saved in:
+- `results/hyperparameter_tuning_results.csv`
+- `results/selected_hyperparameters.csv`
 
 ## Final Result
 
