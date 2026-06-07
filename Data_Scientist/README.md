@@ -46,3 +46,15 @@ The tuning results are saved in:
 
 ## Conclusion
 ResNet50 achieved the best performance with the highest test accuracy and mAP. MobileNetV3Small was the fastest and lightest model.
+
+## Saved Models
+
+The trained model files are not uploaded directly to GitHub because the files are large. The saved models are stored in Google Drive.
+
+Saved models included:
+- mobilenetv3small_model.keras
+- resnet50_model.keras
+- densenet121_model.keras
+
+Google Drive link:
+[Saved Models ZIP]([paste-your-google-drive-link-here](https://drive.google.com/file/d/1UV-klIND0hV5SWNfJySwhYp-njy__SHS/view?usp=sharing))
