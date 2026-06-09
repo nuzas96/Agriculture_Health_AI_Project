@@ -39,4 +39,6 @@ The models evaluated in this project are:
 
 ## Final Conclusion
 
-Based on the evaluation results, ResNet50 is the best model for this Agriculture Health classification task because it achieved the highest test accuracy and mAP. The confusion matrix evaluation also supports this result. However, MobileNetV3Small can be considered if speed and lightweight deployment are more important.
+Based on the evaluation results, ResNet50 is the best model for this Agriculture Health classification task because it achieved the highest test accuracy and mAP. The confusion matrix evaluation also supports this result.
+
+The hyperparameter tuning results further support ResNet50 as the strongest model because it achieved the highest selected validation accuracy at 63.17%. However, MobileNetV3Small can be considered if speed and lightweight deployment are more important.
