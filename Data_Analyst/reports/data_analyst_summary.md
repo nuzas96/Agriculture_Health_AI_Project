@@ -62,8 +62,12 @@ DenseNet121 had lower accuracy compared to ResNet50, even though it required alm
 
 Based on the confusion matrix, ResNet50 also shows stronger overall classification performance because more predictions are concentrated along the main diagonal. This supports the result that ResNet50 is the most suitable model when accuracy is the main priority.
 
+The hyperparameter tuning results also support this conclusion. ResNet50 achieved the highest selected validation accuracy at 63.17%, followed by MobileNetV3Small at 60.37% and DenseNet121 at 58.29%.
+
 ## Final Conclusion
 
 Based on the results, ResNet50 is the best model for this Agriculture Health classification task because it achieved the highest test accuracy and mAP. The confusion matrix evaluation also supports this conclusion because ResNet50 produced stronger classification performance compared to the other models.
 
-However, ResNet50 requires more parameters and longer training time. MobileNetV3Small is the fastest and lightest model, but its accuracy and mAP are lower. Therefore, if accuracy is the main priority, ResNet50 is the most suitable model. If speed and lightweight deployment are more important, MobileNetV3Small can be considered.
+The hyperparameter tuning results further support ResNet50 as the strongest model because it achieved the highest selected validation accuracy at 63.17%. However, ResNet50 requires more parameters and longer training time.
+
+MobileNetV3Small is the fastest and lightest model, but its accuracy and mAP are lower. Therefore, if accuracy is the main priority, ResNet50 is the most suitable model. If speed and lightweight deployment are more important, MobileNetV3Small can be considered.
