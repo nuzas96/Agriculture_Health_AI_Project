@@ -1,6 +1,7 @@
 ## Notebook Files
-- `Data_Scientist_Final_Clean.ipynb` is the final clean notebook for submission.
-- `Data_Scientist_Model_Training.ipynb` is the original working notebook used during model development and testing.
+
+* `Data_Scientist_Model_Training.ipynb` is the main Data Scientist notebook. It contains dataset preparation, hyperparameter tuning, model training, evaluation, final comparison, saved model preparation, and prediction CSV generation.
+* `Data_Scientist_Final_Clean.ipynb` is a simplified clean reference notebook used for easier viewing and explanation.
 
 
 # Data Scientist - Model Training
