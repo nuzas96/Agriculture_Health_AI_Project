@@ -26,16 +26,35 @@ The Data Scientist role focuses on data modelling using CNN transfer learning.
 
 ## Hyperparameter Tuning
 
-A hyperparameter tuning experiment was conducted using three trials for each CNN model. The trials compared different learning rates, dropout values, and trainable layer settings.
+A hyperparameter tuning experiment was conducted in the main training notebook before final model training. Three trials were tested for each CNN model by changing the learning rate, dropout value, and trainable layer setting.
 
-Trial 1 was selected for final training:
-- Learning rate: 0.001
-- Dropout: 0.3
-- Trainable layers: Frozen base
+| Trial   | Learning Rate | Dropout | Trainable Layers         |
+| ------- | ------------: | ------: | ------------------------ |
+| Trial 1 |         0.001 |     0.3 | Frozen base              |
+| Trial 2 |        0.0001 |     0.4 | Frozen base              |
+| Trial 3 |       0.00001 |     0.3 | Fine-tune last 10 layers |
+
+Each trial was trained for 3 epochs using the training and validation datasets. The best trial was selected based on validation accuracy.
+
+Selected hyperparameters:
+
+| Model            | Selected Trial | Learning Rate | Dropout | Trainable Layers | Best Validation Accuracy (%) |
+| ---------------- | -------------- | ------------: | ------: | ---------------- | ---------------------------: |
+| DenseNet121      | Trial 1        |         0.001 |     0.3 | Frozen base      |                        58.29 |
+| MobileNetV3Small | Trial 1        |         0.001 |     0.3 | Frozen base      |                        60.37 |
+| ResNet50         | Trial 1        |         0.001 |     0.3 | Frozen base      |                        63.17 |
+
+Since Trial 1 was selected for all three models, the final 50-epoch training used:
+
+* Learning rate: 0.001
+* Dropout: 0.3
+* Trainable layers: Frozen base
 
 The tuning results are saved in:
-- `results/hyperparameter_tuning_results.csv`
-- `results/selected_hyperparameters.csv`
+
+* `results/hyperparameter_tuning_results.csv`
+* `results/selected_hyperparameters.csv`
+
 
 ## Final Result
 
