@@ -2,6 +2,7 @@
 Data_Engineer/data/final/
 Data_Engineer/data/raw/
 Data_Engineer/data/processed/
+Data_Engineer/data/cleaned/
 Data_Engineer/data/archived_rejected/
 
 # Local notebook/runtime files
